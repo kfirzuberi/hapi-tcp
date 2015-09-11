@@ -1,0 +1,22 @@
+{
+  "name": "hapi-tcp",
+  "version": "1.0.0",
+  "description": "Hapi server to send TCP messages",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfirzuberi/hapi-tcp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kfirzuberi/hapi-tcp/issues"
+  },
+  "homepage": "https://github.com/kfirzuberi/hapi-tcp#readme",
+  "dependencies": {
+    "hapi": "^9.3.1"
+  }
+}
