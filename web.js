@@ -25,7 +25,7 @@ server.route({
         client.connect(port, hostName, function() {
             console.log('Connected');
 
-            // send the message.
+            // send the message to the client.
             client.write(message);
         });
 
