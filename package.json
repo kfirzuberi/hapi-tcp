@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/kfirzuberi/hapi-tcp#readme",
   "dependencies": {
+    "boom": "^2.8.0",
+    "good": "^6.3.0",
+    "good-console": "^5.0.3",
+    "good-file": "^5.0.1",
     "hapi": "^9.3.1",
     "inert": "^3.0.1",
     "joi": "^6.6.1",
