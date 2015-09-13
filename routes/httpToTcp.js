@@ -1,7 +1,7 @@
 var Boom = require('boom');
 var net = require('net');
 var Joi = require('joi');
-var server = require('../server');
+var server = require('../index');
 
 
 module.exports = [

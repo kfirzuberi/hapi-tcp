@@ -1,5 +1,5 @@
 var routes = require('./routes/httpToTcp');
-var server = require('./server');
+var server = require('./index');
 
 // add the routes
 server.route(routes);

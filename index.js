@@ -1,5 +1,5 @@
 var Hapi = require('hapi');
-var config = require('./config');
+var config = require('./config/config');
 
 var goodOptions = {
     opsInterval: 1000,
