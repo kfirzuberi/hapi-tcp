@@ -1,30 +1,33 @@
 {
-  "name": "hapi-tcp",
-  "version": "1.0.0",
-  "description": "Hapi server to send TCP messages",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kfirzuberi/hapi-tcp.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kfirzuberi/hapi-tcp/issues"
-  },
-  "homepage": "https://github.com/kfirzuberi/hapi-tcp#readme",
-  "dependencies": {
-    "boom": "^2.8.0",
-    "good": "^6.3.0",
-    "good-console": "^5.0.3",
-    "good-file": "^5.0.1",
-    "hapi": "^9.3.1",
-    "inert": "^3.0.1",
-    "joi": "^6.6.1",
-    "lout": "^7.0.0",
-    "vision": "^3.0.0"
-  }
+    "name": "hapi-tcp",
+    "version": "1.0.0",
+    "description": "Hapi server to send TCP messages",
+    "main": "web.js",
+    "scripts": {
+        "test": "lab -t 100",
+        "test-cov-html": "lab -r html -o coverage.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kfirzuberi/hapi-tcp.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kfirzuberi/hapi-tcp/issues"
+    },
+    "homepage": "https://github.com/kfirzuberi/hapi-tcp#readme",
+    "dependencies": {
+        "boom": "^2.8.0",
+        "code": "^1.5.0",
+        "good": "^6.3.0",
+        "good-console": "^5.0.3",
+        "good-file": "^5.0.1",
+        "hapi": "^9.3.1",
+        "inert": "^3.0.1",
+        "joi": "^6.6.1",
+        "lab": "^5.16.1",
+        "lout": "^7.0.0",
+        "vision": "^3.0.0"
+    }
 }

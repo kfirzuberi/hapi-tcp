@@ -29,6 +29,12 @@ server.register([
         register: require('good'),
         options: goodOptions
     }], function(err) {
+
+    if(err){
+
+    }else{
+
+    }
 });
 
 module.exports = server;
