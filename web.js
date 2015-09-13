@@ -13,7 +13,12 @@ var goodOptions = {
     }, {
         reporter: require('good-file'),
         events: {log: '*', response: '*', error: '*'},
-        config: './logs/log'
+        config: {
+            path: './logs/',
+            format: 'DD-MM-YYYY',
+            prefix: 'http-to-tcp-log',
+            rotate: 'daily'
+        }
     }]
 };
 
